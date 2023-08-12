@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Form Page" content="Chris Bolen created this form for a coding dojo assignment in August 2023" />
+    <title>Best Form Ever</title>
+</head>
+
+<body>
+    <form action="http://google.com/search" method="post">
+        <h1>My Registration Form</h1>
+        <p>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" />
+        </p>
+        <p>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" />
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" />
+        </p>
+        <p>
+            <label for="password-c">Confirm Password</label>
+            <input type="password" id="password-c" name="password-c" />
+        </p>
+        <p>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </p>
+        <p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="decline">Other</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+        </p>
+        <label for="description">A short description about yourself.</label>
+        <p>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="Favorite">Favorite Language</label>
+            <select name="Favorite">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML">Html</option>
+                <option value="CSS">CSS</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+
+</html>
