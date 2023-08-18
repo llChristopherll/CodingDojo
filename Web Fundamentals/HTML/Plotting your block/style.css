@@ -1,0 +1,45 @@
+#wrapper{
+    background-color: aqua;
+    padding: auto;
+    border: 20px;
+    margin: 20pt;
+}
+#header{
+        margin: 20px;
+        background: #f00707;
+        color: black;
+        padding: 10px;
+        height: 100px;
+        
+
+}
+#navigation{
+    display: inline-block;
+    background-color: beige;
+    width: 15%;
+    height: 600px;
+    margin: 20px;
+ 
+}
+#main_content{
+    display: inline-block;
+    background-color: darkgoldenrod;
+    width: 75%;
+    height: 600px;
+   float: right;
+   margin: 20px;
+   
+.subcontents{
+    display: inline-block;
+    background-color: hotpink;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+#advertisement{
+    background-color: aliceblue;
+    Margin: 10px;
+    height: 250px;
+    max-width: ;
+    
+}
