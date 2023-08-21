@@ -1,0 +1,46 @@
+
+.box{
+    height: 836px;
+    width: 1426px;
+    background-color: blue;
+    padding: 3px;
+    margin: 0px;
+}
+.head{
+    height: 68px;
+    width: 1376px;
+    background-color: rgb(179, 24, 21);
+    padding: 17px;
+    margin: 8px;
+    border-radius: 11px;
+    color: rgb(244, 247, 248);
+}
+.nav{
+    display: inline-block;
+    height: 218px;
+    width: 243px;
+    background-color: aquamarine;
+    padding: 6px;
+    margin: 11px;
+    border-radius: 23px;
+    vertical-align: top;
+    font-size: 12px;
+}
+.main{ 
+    display: inline-block;
+    height: 599px;
+    width: 1111px;
+    background-color: aquamarine;
+    padding: 6px;
+    margin: 11px;
+    border-radius: 23px;
+}
+.footer{
+    height: 50px;
+    width: calc(97.5vw);
+    background-color: aquamarine; 
+    padding-top: 2px;
+    margin: 15px;
+    border-radius: 23px;
+    text-align: center;
+}

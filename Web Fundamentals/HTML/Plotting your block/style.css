@@ -19,16 +19,15 @@
     width: 15%;
     height: 600px;
     margin: 20px;
- 
 }
 #main_content{
     display: inline-block;
     background-color: darkgoldenrod;
     width: 75%;
     height: 600px;
-   float: right;
-   margin: 20px;
-   
+    float: right;
+    margin: 20px;
+}
 .subcontents{
     display: inline-block;
     background-color: hotpink;
@@ -40,6 +39,4 @@
     background-color: aliceblue;
     Margin: 10px;
     height: 250px;
-    max-width: ;
-    
 }
