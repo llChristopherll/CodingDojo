@@ -1,0 +1,135 @@
+.container{
+    height: fit-content;
+    width: auto;
+    background-image: linear-gradient(to bottom right, rgb(194, 210, 221), rgb(4, 69, 81));
+    margin-left: auto;margin-right: auto;
+}
+.header{
+    height: 75pxpx;
+    width: calc(80%vf);
+    background-color: white;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgb(242, 243, 244), rgb(88, 89, 90));
+}
+.headtext{
+    vertical-align: middle;
+    font-size: 40px;
+    display: inline-block;
+}
+#headtextright{ 
+    vertical-align: middle;
+    text-align: right;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 800px;
+}  
+.image,.about{
+    height: 537px;
+    width: 690px;
+    display: inline-block;
+    margin: 10px;
+    background-image: linear-gradient(to bottom right, rgb(242, 243, 244), rgb(88, 89, 90));
+    vertical-align: top; 
+}
+.image{
+    border:5px solid gray;
+}
+.profilepic,img{
+    width: 100%;
+    height: auto;
+}
+.about{
+    width: 658px;
+    height: 534px;
+    font-size: 24px;
+    padding: 6px;
+}
+.aboutheader{
+    height: 40px;
+    width: auto;
+    height: 40px;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(97, 93, 93), rgb(70, 109, 126) 400px, rgb(97, 93, 93) 800px);
+    font-size: 30px;
+}
+.content{
+    display: inline-block;
+    height: 750px;
+    width: 452px;
+    background-image: linear-gradient(to bottom right, rgb(242, 243, 244), rgb(88, 89, 90));
+    margin: 10px;
+    vertical-align: top;
+}
+.contentheader1,.contentheader2,.contentheader3{
+    height: 40px;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(97, 93, 93), rgb(70, 109, 126) 400px, rgb(97, 93, 93) 800px);
+}
+.contentheader1text, .contentheader2text, .contentheader3text{
+    margin: 0px;
+    padding: 10px;
+    font-size: 23px;
+}
+.contentimage1, .contentimage2, .contentimage3{
+height: 248px;
+width: auto;
+}
+.contenttext1, .contenttext2, .contenttext3{
+margin: 20px;
+height: 100px;
+}
+.contentfooter1, .contentfooter2, .contentfooter3{
+height: 40px;
+width: auto;
+background-image: linear-gradient(to right, rgb(97, 93, 93), rgb(70, 109, 126) 400px, rgb(97, 93, 93) 800px);
+}
+.ftext1, .ftext2, .ftext3{
+    vertical-align: middle;
+    font-size: 20px;
+}
+.technologies{
+    height: 180px;
+    width: auto;
+    align-items: center;
+}
+.techpics{
+    margin: 11px;
+    height: 64px;
+    width: 65px;
+    display: inline-flex;
+}
+.b{
+    height: 50px;
+    width: auto;
+    text-align: center;
+    padding: 1px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 24%;
+    height: 32px;
+    width: 121px;
+    background-color: rgb(48, 96, 107);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.socials{
+    height: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 25px;
+    width: 25px;
+    background-color: aliceblue;
+}
+.footerul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.footerimg{
+    width: 20px;
+}
