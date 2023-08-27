@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="board"></div>
+    <script>
+
+        var world = [
+            [2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+            [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+            [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+            [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+            [2, 1, 1, 1, 2, 1, 1, 1, 1, 2],
+            [2, 1, 1, 1, 2, 2, 1, 2, 1, 2],
+            [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+            [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+            [2, 1, 1, 1, 1, 1, 1, 1, 1, 2],
+            [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+        ];
+
+        function displayWorld() {
+            var output = '';
+            for (var i = 0; i < world.length; i++) {
+                output += "<div class='row'>";
+                for (var j = 0; j < world[i].length; j++) {
+                    if (world[i][j] == 2) {
+                        output += "<div class='brick'></div>"
+                    }
+                    else if (world[i][j] == 1) {
+                        output += "<div class='coin'></div>"
+                    }
+                    if (world[i][j] == 0) {
+                        output += "<div class='empty'></div>"
+                    }
+                }
+                output += "</div>"
+            }
+            // console.log(output)
+            // document.querySelector("#board").innerHTML = output;
+            document.getElementById('board').innerHTML = output;
+            document.getElementsByClassName('coin')
+        }
+        displayWorld()
+
+
+    </script>
+
+</body>
+
+</html>
